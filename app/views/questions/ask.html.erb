@@ -1,9 +1,8 @@
 <h1>Ask Us!</h1>
 
-<p>Hi there! Ask us the Secrets to the Universe</p>
+<p>Hi there! Ask the Coach</p>
 
-<form action="questions/answer">
-  <input type="text" name="question">
+<form action="/answer" method="get">
+  <input type="text" name="question_asked">
   <input type="submit" value="Ask!">
-  <%=link link_to answer_path%>
 </form>
